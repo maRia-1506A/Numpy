@@ -23,3 +23,8 @@ updated_new_col= np.hstack((original_arr, new_col)) # horizontally column added 
 
 print("\nOriginal Array:\n", original_arr)
 print("Updated with new column:\n", updated_new_col)
+
+# remove element
+remove= np.delete(arr1, 1)
+print("\nOriginal array:", arr1)
+print("Array after deletion:", remove)
